@@ -1,0 +1,10 @@
+```{ojs}
+import { atlasTOC } from "/helpers/toc.ojs";
+```
+
+```{ojs}
+toc = atlasTOC({
+  skip: ["notebook-title", "appendix", "source-code"], // These should be the section headings in the {# headings}
+  heading: `<b>${Lang.toSentenceCase(_lang(general_translations.toc))}</b>`,
+});
+```

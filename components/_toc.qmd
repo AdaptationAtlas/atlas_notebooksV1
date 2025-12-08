@@ -1,3 +1,7 @@
+<!-- Requires:
+- {{< include /components/_lang.qmd>}}
+-->
+
 <style>
   /* Hide TOC on small screens */
   @media (max-width: 768px) {
