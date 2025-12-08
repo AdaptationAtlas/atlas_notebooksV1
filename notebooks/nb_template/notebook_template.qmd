@@ -8,7 +8,7 @@ date-edited: today
 ---
 
 ```{ojs}
-import { atlasTOC, atlasHero } from "/helpers/uiComponents.ojs";
+import { atlasHero } from "/helpers/uiComponents.ojs";
 
 hero_url = "./../../images/default_crop.webp";
 // This ^^ must be relative path due to an issue
@@ -49,6 +49,9 @@ or module imported in each will result in an error -->
 
 # `{ojs} appendix` {#appendix}
 
+{{< include /components/_tocV2.qmd >}}
+
+<!--
 ```{ojs}
 toc_bottom = atlasTOC({
   skip: ["notebook-title", "appendix", "source-code"], // These should be the section headings in the {# headings}
@@ -61,6 +64,7 @@ htl.html`
       </div>
       `;
 ```
+-->
 
 # Source code {#source-code .hidden}
 
@@ -154,82 +158,3 @@ prettyLanguageView = {
   );
 }
 ```
-
-<!--
-
-# Prototypes for future use to hack a sidebar into notebooks:
-
-{.column-margin}
-
-```{ojs}
-htl.html`
-<style>
-.sticky-margin-div {
-  position: fixed;
-  }
-@media (max-width: 768px) {
-  .sticky-margin-div {
-    position: static;
-    }
-}
-</style>
-
-<div class = "sticky-margin-div">
-    <div>
-      ${Inputs.radio(languages, {
-        label: "Main language toggle",
-        format: (d) => d.key,
-        value: languages.find((x) => x.key === defaultLangKey),
-      })}
-    </div>
-  </div>`
-```
-
-:-::
-
--->
-
-<!-- Floating Sidebar: Self-contained HTML, CSS, and JS -->
-<!--
-<div id="floating-sidebar">
-
-</div>
-
-<style>
-  #floating-sidebar {
-    position: fixed;
-    top: 150px;           /* Distance from top of the page */
-    left: 20px;          /* Distance from left of the page */
-    width: 260px;        /* Sidebar width */
-    min-height: 400px;   /* Minimum height */
-    max-height: 80vh;    /* Max height relative to viewport */
-    background: #ffffff;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-    border-radius: 8px;
-    padding: 20px;
-    overflow-y: auto;
-    z-index: 9999;
-    transition: box-shadow 0.2s;
-  }
-  #floating-sidebar:hover {
-    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
-  }
-  /* Responsive: hide on small screens */
-  @media (max-width: 800px) {
-    #floating-sidebar {
-      display: none;
-    }
-  }
-</style>
-
-<script>
-  // Optional: Add any JS for interactivity here
-  // Example: Toggle sidebar visibility with a keyboard shortcut (Ctrl+B)
-  document.addEventListener('keydown', function(e) {
-    if (e.ctrlKey && e.key === 'b') {
-      const sidebar = document.getElementById('floating-sidebar');
-      sidebar.style.display = (sidebar.style.display === 'none') ? 'block' : 'none';
-    }
-  });
-</script> -->
-
