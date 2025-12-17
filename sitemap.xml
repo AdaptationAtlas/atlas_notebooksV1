@@ -1,51 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/CHANGELOG.html</loc>
-    <lastmod>2025-12-17T23:43:06.766Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/solutions/DiscoverSolutions.html</loc>
-    <lastmod>2025-12-17T23:43:07.010Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/livestock-notebook/notebook.html</loc>
-    <lastmod>2025-12-17T23:43:06.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/gender/gender.html</loc>
-    <lastmod>2025-12-17T23:43:06.844Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/index.html</loc>
-    <lastmod>2025-12-17T23:43:06.822Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/docs/nb_guidelines.html</loc>
-    <lastmod>2025-12-17T23:43:06.809Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/docs/doc_index.html</loc>
-    <lastmod>2025-12-17T23:43:06.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/docs/translation.html</loc>
-    <lastmod>2025-12-17T23:43:06.809Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/explore/notebook.html</loc>
-    <lastmod>2025-12-17T23:43:06.844Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/heatstressProducers/notebook.html</loc>
-    <lastmod>2025-12-17T23:43:06.989Z</lastmod>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/whatsAtRisk/notebook.html</loc>
+    <lastmod>2025-12-17T23:52:18.339Z</lastmod>
   </url>
   <url>
     <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/projectedImpacts/notebook.html</loc>
-    <lastmod>2025-12-17T23:43:07.008Z</lastmod>
+    <lastmod>2025-12-17T23:52:18.281Z</lastmod>
   </url>
   <url>
-    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/whatsAtRisk/notebook.html</loc>
-    <lastmod>2025-12-17T23:43:07.055Z</lastmod>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/heatstressProducers/notebook.html</loc>
+    <lastmod>2025-12-17T23:52:18.244Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/explore/notebook.html</loc>
+    <lastmod>2025-12-17T23:52:18.017Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/docs/translation.html</loc>
+    <lastmod>2025-12-17T23:52:17.983Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/docs/doc_index.html</loc>
+    <lastmod>2025-12-17T23:52:17.983Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/docs/nb_guidelines.html</loc>
+    <lastmod>2025-12-17T23:52:17.983Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/index.html</loc>
+    <lastmod>2025-12-17T23:52:17.989Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/gender/gender.html</loc>
+    <lastmod>2025-12-17T23:52:18.017Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/livestock-notebook/notebook.html</loc>
+    <lastmod>2025-12-17T23:52:18.255Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adaptationatlas.github.io/atlas_notebooks/notebooks/solutions/DiscoverSolutions.html</loc>
+    <lastmod>2025-12-17T23:52:18.283Z</lastmod>
   </url>
 </urlset>
