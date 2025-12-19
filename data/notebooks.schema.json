@@ -14,7 +14,12 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "path", "image", "title"],
+        "required": [
+          "id",
+          "path",
+          "image",
+          "title"
+        ],
         "properties": {
           "id": {
             "type": "string",
@@ -36,8 +41,12 @@
               "type": "string"
             },
             "properties": {
-              "en": { "type": "string" },
-              "fr": { "type": "string" }
+              "en": {
+                "type": "string"
+              },
+              "fr": {
+                "type": "string"
+              }
             }
           },
           "summary": {
@@ -48,13 +57,13 @@
               "type": "string"
             },
             "properties": {
-              "en": { "type": "string" },
-              "fr": { "type": "string" }
+              "en": {
+                "type": "string"
+              },
+              "fr": {
+                "type": "string"
+              }
             }
-          },
-          "status": {
-            "type": "string",
-            "description": "Optional tag or badge text (e.g., V1, Draft)."
           },
           "hide": {
             "type": "boolean",
@@ -64,5 +73,7 @@
       }
     }
   },
-  "required": ["notebooks"]
+  "required": [
+    "notebooks"
+  ]
 }
