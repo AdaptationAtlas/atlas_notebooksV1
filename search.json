@@ -235,7 +235,7 @@
     "href": "index.html",
     "title": "Adaptation Atlas Notebooks",
     "section": "",
-    "text": "V1 Notebooks\nThese notebooks are example ports from the original Atlas notebooks. These may be useful for reference, but are not actively maintained or updated. They may also be useful as examples for how to create your own quarto notebooks. However, they may use old datasets, functions that are no longer applicable, and old code standards.\n\nAnalyze Women’s Exposure To Climate Hazards\nDiscover Solutions\nExplore the Data\nUnderstand Heat Stress on Producers\nDiscover Solutions\nProjected Impacts\nWhat’s at Risk\nPrioritize Livestock Investment\n\n\n\nOther Documentation and Notebook Guidelines:\n\nGuidelines for Developing Observable Notebooks\nNotebook Translation Guide"
+    "text": "Adaptation Atlas V1 Notebooks\n\n\n\n\n\nNo notebooks have been configured yet.\n\n\n\n\nOther Documentation and Notebook Guidelines\n\nGuidelines for Developing Observable Notebooks\nNotebook Translation Guide"
   },
   {
     "objectID": "notebooks/gender/gender.html",
