@@ -1,5 +1,5 @@
 ---
-nb-title: "View Projected Climate Impacts"
+pagetitle: "View Projected Climate Impacts"
 nb-author:
   - Sebastián García Acosta
   - Brayden Youngberg

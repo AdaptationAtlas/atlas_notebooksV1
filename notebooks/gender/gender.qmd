@@ -1,5 +1,5 @@
 ---
-pagetitle: "WomensExposure"
+pagetitle: "Womens Exposure"
 nb-authors:
   - Brayden Youngberg
   - Shalika Vyas

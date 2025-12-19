@@ -1,5 +1,5 @@
 ---
-nb-title: "Understand Heat Stress on Producers"
+pagetitle: "Understand Heat Stress on Producers"
 nb-author:
   - Naia O Z
 ---

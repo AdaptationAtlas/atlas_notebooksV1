@@ -1,5 +1,5 @@
 ---
-nb-title: "Prioritize Livestock Investments"
+pagetitle: "Prioritize Livestock Investments"
 nb-author:
   - Calderon, Santiago (Alliance Bioversity-CIAT)
 ---

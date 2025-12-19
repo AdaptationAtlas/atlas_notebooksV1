@@ -1,5 +1,5 @@
 ---
-nb-title: "Evaluate Climate Risks"
+pagetitle: "Evaluate Climate Risks"
 nb-author:
   - Zach Bogart
 ---
