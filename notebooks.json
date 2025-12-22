@@ -3,7 +3,7 @@
   "notebooks": [
     {
       "id": "gender-exposure",
-      "path": "notebooks/gender/gender.qmd",
+      "path": "notebooks/gender/notebook.qmd",
       "image": "images/womenClimate.webp",
       "title": {
         "en": "Analyze Women's Exposure to Climate Hazards",
