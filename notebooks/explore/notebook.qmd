@@ -1,5 +1,5 @@
 ---
-page-title: "Explore the Datasets"
+pagetitle: "Explore the Datasets"
 nb-author:
   - Brayden Youngberg
 ---
