@@ -3,7 +3,7 @@
   "notebooks": [
     {
       "id": "gender-exposure",
-      "path": "notebooks/gender/gender.qmd",
+      "path": "notebooks/gender/notebook.qmd",
       "image": "images/womenClimate.webp",
       "title": {
         "en": "Analyze Women's Exposure to Climate Hazards",
@@ -18,7 +18,7 @@
     },
     {
       "id": "solutions",
-      "path": "notebooks/solutions/DiscoverSolutions.qmd",
+      "path": "notebooks/solutions/notebook.qmd",
       "image": "images/solution.webp",
       "title": {
         "en": "Discover Solutions",
