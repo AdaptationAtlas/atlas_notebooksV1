@@ -1,5 +1,5 @@
 ---
-nb-title: "Prioritize Livestock Investments"
+pagetitle: "Prioritize Livestock Investments"
 nb-author:
   - Calderon, Santiago (Alliance Bioversity-CIAT)
 ---
@@ -673,10 +673,6 @@ function convertToFloat(obj, i) {
 
 ```{ojs}
 buildAreaChart = (data, titles, colorBlind = "None", condition = false) => {
-  // const areaContainer = d3.select("#main_area_chart")
-  //   .append("div")
-  //   .attr("id", "area_container");
-
   const data_titles = Object.keys(data[0]);
 
   let plotAreaGraph = Plot.areaY(data, {
@@ -743,6 +739,8 @@ buildAreaChart = (data, titles, colorBlind = "None", condition = false) => {
     };
   }
   const plotArea = Plot.plot({
+    height: 500,
+    width,
     color: chartColor,
     y: {
       label: titles[0],
@@ -756,30 +754,12 @@ buildAreaChart = (data, titles, colorBlind = "None", condition = false) => {
     marks: [plotAreaGraph, Plot.ruleY([0])],
   });
 
-  // document
-  //   .querySelector("#area_container")
-  //   .appendChild(
-  //     plotArea
-  //   )
   return plotArea;
 };
 ```
 
 ```{ojs}
 async function dynamicTextLivestockExplosion() {
-  // // await createAreaChart(select);
-  // const lalivestockInvest.webpstYear =  [...document.querySelectorAll('#area_container .plot-d6a7b5-figure g[aria-label="x-axis tick label"] text')].map(label => label.textContent).pop();
-
-  // const firstYear =  [...document.querySelectorAll('#area_container .plot-d6a7b5-figure g[aria-label="x-axis tick label"] text')].map(label => label.textContent).shift()
-
-  // let labels = Array.from(test_areachart.querySelectorAll('.plot-d6a7b5-figure g[aria-label="x-axis tick label"] text'))
-  //   .map(label => label.textContent);
-
-  // // Crear un nuevo elemento <b> con el contenido del último año
-  // const boldElement = document.createElement('b');
-  // boldElement.textContent = `(${d3.min(labels)} - ${d3.max(labels)})`;
-
-  // hardc oding these as they seem constany anyway...
   const boldElement = document.createElement("b");
   boldElement.textContent = `(2010 - 2021)`;
 
