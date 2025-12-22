@@ -82,7 +82,7 @@ viewof prettyLanguageView = {
   const y = (d) => _lang(td.Practice.values?.[d]);
 
   return Plot.plot({
-    width: 900,
+    width,
     height: 700,
     marginLeft: 190,
     marginRight: 50,
@@ -219,7 +219,7 @@ viewof toggleCIsCrop_new = {
     marginTop,
     marginLeft: 200,
     marginRight: 70,
-    width: 900,
+    width,
     x: {
       axis: "top",
       nice: true,
@@ -673,7 +673,7 @@ plotDotAEZ_new = {
     marginTop,
     marginLeft: 200,
     marginRight: 70,
-    width: 900,
+    width,
     x: {
       axis: "top",
       nice: true,
@@ -1130,7 +1130,7 @@ plotRiskBeeswarm = {
   const plot = Plot.plot({
     caption: langLook.caption,
     height: 400,
-    width: 800,
+    width,
     marginTop: 60,
     x: {
       axis: "top",
@@ -1415,8 +1415,8 @@ viewof radioSortAdoptionFactors = {
   const y = (d) => _lang(td.adoption_factors.values?.[d]);
 
   return Plot.plot({
-    width: 1000,
-    height: 400,
+    width,
+    height: 600,
     marginLeft: 180,
     marginRight: 50,
     x: {
