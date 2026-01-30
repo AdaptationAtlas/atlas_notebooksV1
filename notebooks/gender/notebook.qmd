@@ -950,6 +950,49 @@ ${row[c].split(", ").map((v) => _lang(nbText.BridgeGap.table.values[v.toLowerCas
 
 `{ojs} _lang(nbText.Summary.text)`
 
+```{ojs}
+md`# ${_lang(nbText.MethodsSources.title)}`;
+
+md`## ${_lang(nbText.MethodsSources.datasets.title)}`;
+
+md`### ${_lang(nbText.MethodsSources.datasets.femaleParticipation.title)}`;
+
+md`${_lang(nbText.MethodsSources.datasets.femaleParticipation.text)}`;
+
+md`### ${_lang(nbText.MethodsSources.datasets.heatStress.title)}`;
+
+md`${_lang(nbText.MethodsSources.datasets.heatStress.text)}`;
+
+md`### ${_lang(nbText.MethodsSources.datasets.FemaleWellbeing.title)}`;
+
+md`${_lang(nbText.MethodsSources.datasets.FemaleWellbeing.text)}`;
+
+md`### ${_lang(nbText.MethodsSources.datasets.WomenInAg.title)}`;
+
+md`${_lang(nbText.MethodsSources.datasets.WomenInAg.text)}`;
+
+md`### ${_lang(nbText.MethodsSources.datasets.adaptationSolutions.title)}`;
+
+md`${_lang(nbText.MethodsSources.datasets.adaptationSolutions.text)}`;
+
+md`### ${_lang(nbText.MethodsSources.datasets.boundaries.title)}`;
+
+md`${_lang(nbText.MethodsSources.datasets.boundaries.text)}`;
+```
+
+```{ojs}
+md`## ${_lang(nbText.MethodsSources.methods.title)}`;
+
+md`### ${_lang(nbText.MethodsSources.methods.WomenInAg.title)}`;
+md`${_lang(nbText.MethodsSources.methods.WomenInAg.text)}`;
+
+md`### ${_lang(nbText.MethodsSources.methods.hotspots.title)}`;
+md`${_lang(nbText.MethodsSources.methods.hotspots.text)}`;
+
+md`## ${_lang(nbText.MethodsSources.methods.solutions.title)}`;
+md`${_lang(nbText.MethodsSources.methods.solutions.text)}`;
+```
+
 # Source code {#source-code .hidden}
 
 ## Text translations and language support
