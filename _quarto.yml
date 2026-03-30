@@ -14,9 +14,6 @@ website:
   favicon: images/atlas-icon.svg
   site-url: https://adaptationatlas.github.io/atlas_notebooks/
   search: false # disable search = performance increase
-  # sidebar: # Creates an empty sidebar which elements can be added to
-  #   style: floating
-  #   alignment: left
 
   navbar:
     logo: images/atlas-logo.svg
@@ -32,18 +29,19 @@ website:
       - icon: github
         href: https://github.com/AdaptationAtlas/atlas_notebooks
         aria-label: "GitHub"
+  page-footer:
+    left: "© 2026 AAA & CGIAR"
+
 format:
   html:
     theme: cosmo
-    include-in-header: _include.html # This includes path the google font api
-    mainfont: "IBM Plex Sans"
-    css: styles.css
+    css: styles/main.css
+    include-in-header:
+      - text: |
+          <script data-goatcounter="https://africaadaptationatlas.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
     grid:
-      # content-mode: standard
-      # gutter-width: 1.2em
-      # sidebar-width: 200px
-      body-width: 1100px
-
+      body-width: 1180px
     toc: false # use custom to reduce complexity with lang and increase performance
     anchor-sections: false # remove section link hovers
 
